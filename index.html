@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebScrapping</title>
+
+    <style>
+        body {
+            background-color: rgb(33, 93, 128);
+        }
+
+        .a {
+            background-color: rgb(192, 242, 255);
+            border: crimson 2px solid;
+            padding: 20px;
+            width: 70vw;
+            font-size: 17px;
+        }
+
+        .b {
+            background-color: rgb(23, 9, 73);
+            color: white;
+            font-size: 20px;
+            width: 200px;
+            border: crimson 2px solid;
+            padding: 20px;
+        }
+
+        .c {
+            background-color: rgb(155, 201, 187);
+            border: crimson 2px solid;
+            padding: 17px;
+            width: 70vw
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        Here I was given a task where I needed to Automate scraping of trending javascript repositories and developers’
+        details from the GitHub Trending page using Puppeteer or Cheerio.<br><br> I used Cheerio process for automate
+        scrapping and then I stored the extracted data in a JSON object.<br><br>
+
+        Here's the GitHub URL - <a href=" https://www.github.com/trending"> Click Here</a>
+    </div><br><br>
+
+    <div class="b">Requirements :</div>
+
+    <div class="c"> Used Cheerio to automate browsing to the GitHub Trending page and retrieve the HTML content.
+        <br><br>
+
+
+        Used Cheerio to extract the relevant data from the HTML content.<br><br>
+
+
+        Extracted the following informations for all listed repositories.<br> 1.title, 2. description, 3.URL, 4.stars,
+        5.forks, 6.language<br><br>
+        Clicking on developers. And selecting javascript from the language section
+        Fetched the following information for all listed developers<br>
+        1. Name of developer 2. User name of the developer 3. Repo name & description<br><br>
+
+        3. Stored the extracted data in a JSON and console.log it<br><br>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
